@@ -1,14 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .navContainer{
   border: 3px solid rgb(230, 238, 245);
   text-align: center;
   width: 70%;
   background-color: rgb(230, 238, 245);
   margin-left: 15%;
-  margin-top: 2%;
   color: blue;
-  padding: 2px;
   font-family: serif;
  
+}
+body{
+  font-family: 'arial';
+  background: url('nature.png') no-repeat;
+  background-size: cover;
+  height: 100%;
+
 }
 .formClass{
   border: 3px solid rgb(230, 238, 245);
@@ -17,15 +26,13 @@
   background-color: rgb(230, 238, 245);
   margin-left: 22%;
   margin-right: 22%;
-
-  margin-top: 2%;
   color: blue;
   padding: 5px;
   font-family: serif;
 }
 textarea {
   width: 700px;
-  height: 60px;
+  height: 70px;
 }
 .listContainer{
   border: 3px solid rgb(230, 238, 245);
@@ -49,6 +56,19 @@ textarea {
     height: 75px;
   }
 }
+ div nav ul li {
+  text-decoration: none;
+  display: block;
+  font-size: 50;
+  opacity: .7;
+  text-align: horizontal;
+  background-color: powderblue;
+  float: left;
+  width: 400px;
+  height: 60px;
+ }
+ 
+ 
 
 
 /* .App {
